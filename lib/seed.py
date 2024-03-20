@@ -27,7 +27,7 @@ if __name__ == '__main__':
     games = []
     for i in range(50):
         game = Game(
-            title=fake.unique.name(),
+            title=fake.name(),
             genre=random.choice(genres),
             platform=random.choice(platforms),
             price=random.randint(5, 60)
